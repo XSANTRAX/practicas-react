@@ -1,5 +1,4 @@
 import './Inicio.css';
-import Empleo from '../empleos/Empleo';
 
 
 function Inicio() {
@@ -17,13 +16,14 @@ function Inicio() {
 
     <nav>
       <a href="#">Buscar</a>
-      <a href={Empleo}>Empleos</a>
+      <a href='./../empleos/Empleo.jsx'>Empleos</a>
       <a href="#">Empresas</a>
       <a href="#">Salario</a>
     </nav>
 
     <div>
       <a href="">Publicar un empleo</a>
+      <a href="">Iniciar sesión</a>
     </div>
   </header>
 
@@ -47,7 +47,7 @@ function Inicio() {
 
           <input required type="text" placeholder="Buscar empleos por título, habilidad o empresa"/>
 
-          <button disabled type="submit">Buscar</button>
+          <button type="submit">Buscar</button>
         </div>
       </form>
     </section>
