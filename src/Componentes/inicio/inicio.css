@@ -133,6 +133,7 @@ nav {
 
 /* Botones del Header */
 header div a {
+
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   background-color: #334155;
@@ -141,7 +142,13 @@ header div a {
   font-size: 0.875rem;
   font-weight: 700;
   text-decoration: none;
+  margin-right: 1rem;
   /* TODO */
+
+  &:hover {
+    background-color: #7c8797;
+    outline: none;
+  }
 }
 
 /* Hero */
