@@ -1,5 +1,5 @@
 import './Inicio.css';
-
+import { Link } from "react-router-dom";
 
 function Inicio() {
   return (
@@ -15,15 +15,15 @@ function Inicio() {
     </h1>
 
     <nav>
-      <a href="#">Buscar</a>
-      <a href='./../empleos/Empleo.jsx'>Empleos</a>
-      <a href="#">Empresas</a>
-      <a href="#">Salario</a>
+      <Link to="#">Buscar</Link>
+      <Link to='/Empleo'>Empleos</Link>
+      <Link to="#">Empresas</Link>
+      <Link to="#">Salario</Link>
     </nav>
 
     <div>
-      <a href="">Publicar un empleo</a>
-      <a href="">Iniciar sesión</a>
+      <Link to="">Publicar un empleo</Link>
+      <Link to="">Iniciar sesión</Link>
     </div>
   </header>
 
